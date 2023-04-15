@@ -1,0 +1,19 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discord to Telegram Forwarder</title>
+    <link rel="stylesheet" href="{% static 'forwarder_app/styles.css' %}">
+</head>
+<body>
+    <h1>Discord to Telegram Forwarder</h1>
+    <p>Status: <span class="status">{{ status }}</span></p>
+    <form method="post">
+        {% csrf_token %}
+        <button type="submit" name="action" value="enable" class="enable-button">Enable</button>
+        <button type="submit" name="action" value="disable" class="disable-button">Disable</button>
+    </form>
+</body>
+</html>

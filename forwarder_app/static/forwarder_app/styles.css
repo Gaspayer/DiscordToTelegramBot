@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 0 0 1em;
+    text-align: center;
+}
+
+p {
+    margin: 0 0 1em;
+    text-align: center;
+}
+
+.status {
+    font-weight: bold;
+    color: green;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px 2px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.enable-button {
+    background-color: green;
+    color: white;
+}
+
+.disable-button {
+    background-color: #880808;
+    color: white;
+}
+
+form{
+  text-align: center;
+}
