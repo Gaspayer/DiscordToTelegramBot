@@ -6,11 +6,11 @@ Usage:
 1.Create discord and telegram bots and save tokens.
 
 2.Create .env file in project root directory:
-'''rb
+```rb
 DISCORD_TOKEN="your_token_here"
 TELEGRAM_TOKEN="your_token_here"
 TELEGRAM_CHAT_ID="your_chat_id_here"
-'''
+```
 
 3.Install requirements:
 
