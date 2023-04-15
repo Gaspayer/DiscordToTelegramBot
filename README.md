@@ -3,7 +3,7 @@ Bot for forwarding messages from discord to telegram
 
 Usage: 
 
-1.Create discord and telegram bots and save tokens.
+1.Create your discord and telegram bots and save tokens.
 
 2.Create .env file in project root directory:
 ```rb
