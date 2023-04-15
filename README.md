@@ -13,11 +13,11 @@ TELEGRAM_CHAT_ID="your_chat_id_here"
 ```
 
 3.Install requirements:
-
+```rb
 pip install -r requirements.txt
-
+```
 
 4.Run on a local server:
-
+```rb
 python manage.py runserver
-
+```
